@@ -1055,6 +1055,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
 
+![s100](https://github.com/Mohanraj2006/OS-Linux-commands-Shell-script/assets/152195759/9789a0a0-bdbb-48c0-92b4-94c4100fa227)
 
 ## OUTPUT
 
@@ -1080,8 +1081,9 @@ $ chmod 755 forbreak.sh
 $ ./forbreak.sh 
 
 
- 
-cat forbreak.sh 
+ ![s101](https://github.com/Mohanraj2006/OS-Linux-commands-Shell-script/assets/152195759/46d74887-e8df-4cf1-addc-9f63f3804f71)
+
+cat forcontinue.sh 
 ```bash
 #!/bin/bash
 # breaking out of a for loop
@@ -1100,6 +1102,10 @@ echo "The for loop is completed“
 $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
+
+![s102](https://github.com/Mohanraj2006/OS-Linux-commands-Shell-script/assets/152195759/17a6232c-33e0-411f-b595-5c62fd0bb77b)
+ 
+
 ## OUTPUT
  
 cat exread.sh 
@@ -1114,6 +1120,10 @@ echo "Hello $name, welcome to my program. "
 $ chmod 755 exread.sh 
  
 $ ./exread.sh 
+
+ ![s103](https://github.com/Mohanraj2006/OS-Linux-commands-Shell-script/assets/152195759/cf1da0ff-2215-4b0c-9dd2-5878fa408b44)
+
+
 ## OUTPUT
 
 
@@ -1125,6 +1135,9 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
+
+ ![s104](https://github.com/Mohanraj2006/OS-Linux-commands-Shell-script/assets/152195759/32f7898d-ea8b-45f2-a9fc-ab7c21dfc461)
+
 
 ## OUTPUT
 
@@ -1147,14 +1160,20 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
+
+
 ## OUTPUT
  ./funcex.sh 
 
  
  ./funcex.sh 1 2
 
+![s105](https://github.com/Mohanraj2006/OS-Linux-commands-Shell-script/assets/152195759/18943320-48ec-44c5-8080-25e5fcd44b70)
+
  
 cat argshift.sh
+
+
 ```bash
 #!/bin/bash 
  while (( "$#" )); do 
@@ -1167,10 +1186,12 @@ $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
  
+ ![s106](https://github.com/Mohanraj2006/OS-Linux-commands-Shell-script/assets/152195759/a3d92804-970b-4760-aea4-e598e49c434c)
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
- # store arguments in a special array 
+ # store arguments in a special array
 args=("$@") 
 # get number of elements 
 ELEMENTS=${#args[@]} 
@@ -1183,6 +1204,8 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+
+![s107](https://github.com/Mohanraj2006/OS-Linux-commands-Shell-script/assets/152195759/19d1339b-b9c0-4d66-983f-922270cca807)
  
 cat argshift.sh
 ```bash
@@ -1197,7 +1220,8 @@ set +x
 ## OUTPUT
  ./argshift.sh 1 2 3
  
- 
+ ![s108](https://github.com/Mohanraj2006/OS-Linux-commands-Shell-script/assets/152195759/05cb2915-4eda-45d4-bc17-bff89e850ab4)
+
 cat > nc.awk
 ```bash
 BEGIN{}
@@ -1212,6 +1236,10 @@ print "Number of Lines are",NR
 print "No of Words count:",wordcount
 }
  ```
+
+![s109](https://github.com/Mohanraj2006/OS-Linux-commands-Shell-script/assets/152195759/c36a1199-ff9c-4ae8-b0d3-7c1abffcbfed)
+
+
 cat>data.dat
 ```bash
 bcdfghj
@@ -1225,7 +1253,15 @@ obcdfghj
 bcdfghj
 ubcdfghj
 ```
+
+![s110](https://github.com/Mohanraj2006/OS-Linux-commands-Shell-script/assets/152195759/03a34114-d377-441c-9d05-ae6d7ca9be58)
+
+
 awk -f nc.awk data.dat
+
+![s111](https://github.com/Mohanraj2006/OS-Linux-commands-Shell-script/assets/152195759/70758e0e-c7e2-463d-8b83-e2441e8f5f57)
+
+
 ## OUTPUT 
  
 cat > palindrome.sh
@@ -1259,6 +1295,7 @@ $ chmod 755 palindrome.sh
 
 $ ./palindrome.sh
 
+![s112](https://github.com/Mohanraj2006/OS-Linux-commands-Shell-script/assets/152195759/980228ae-aa07-427c-ad78-b784eec7b979)
 
 
 # RESULT:
